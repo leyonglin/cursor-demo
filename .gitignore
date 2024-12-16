@@ -1,0 +1,50 @@
+# Dependencies
+*/node_modules/
+node_modules/
+
+.next/
+.pnpm-store/
+
+# Build output
+*/dist/
+dist/
+build/
+
+# test
+/test
+
+# Environment files
+
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*/*.sqlite
+*/*.sqlite3
+*/*.db
+
+# IDE/Editor
+.vscode/
+*/.idea/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.temp

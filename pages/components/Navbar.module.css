@@ -1,0 +1,65 @@
+.navbar {
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 200px;
+  z-index: 1000;
+  transition: left 0.3s;
+}
+
+/* 当菜单栏收缩时，导航栏左边界变化 */
+.navbar.collapsed {
+  left: 80px;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.toggleButton {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleButton:hover {
+  color: #1890ff;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userInfo button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+}
+
+.userInfo button:hover {
+  background-color: #d32f2f;
+} 
