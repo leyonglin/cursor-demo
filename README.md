@@ -3,6 +3,8 @@
 2. 执行命令：npm install
 3. 执行命令：npm run dev
 
+# 开发过程
+如果对开发过程感兴趣的，点击查看[开发过程](https://gida8fb9mrg.feishu.cn/wiki/QrMzwvOJNi1cGmkLWGycCsFon2f?from=from_copylink)
 
 # 后端数据库
 - SQLite
